@@ -25,12 +25,11 @@
          $('.middle_box').click(function (event) {
             event.stopPropagation();
          })
+         
          $('#large_box').click(function () {
             $(this).css('background-color', random_color);
             $(this).children().css('background-color', random_color);
          })
-
-         
 
          $('.middle_box').click(function () {
             $(this).parent().css('background-color', random_color);
@@ -40,14 +39,7 @@
             $(this).siblings().css('background-color', random_color);
          })
 
-
-
-
       });
-
-          //$('#large_box').click(function(){
-           //     $(this).siblings().css('background-color', random_color);
-            //});
 
 
    </script>
